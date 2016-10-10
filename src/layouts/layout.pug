@@ -11,6 +11,7 @@ html.no-js(prefix="og: http://ogp.me/ns#")
                         include ./layout/header
                         +header()
                     block content
+                    block postContent
     footer.footer
         block footer
             include ./layout/footer
@@ -21,5 +22,4 @@ html.no-js(prefix="og: http://ogp.me/ns#")
                 em #{environment}
                 |  | Built at: 
                 em #{moment().utc().format('YYYY-M-D HH:mm')} (UTC)
-    block postContent
     include ./layout/scripts 

@@ -1,10 +1,10 @@
 {
-  "title" : "Contentful Metalsmith Boilerplate",
-  "domain" : "contentful-metalsmith-demo.netlify.com",
-  "protocol" : "http://",
-  "description": "Boilerplate for getting a Contentful/Metalsmith site up and running quickly",
-  "keywords": "contentful, metalsmith, netlify, boilerplate",
-  "logo": "https://images.contentful.com/mtlo55dqox3k/6cISVamQ7YIm0UoAywuMue/12121ba1e377f1807d516e25fea05798/initech.png",
+  "title" : "CEA Tech Documentation",
+  "domain" : "tech-docs.centreforeffectivealtruism.org",
+  "protocol" : "https://",
+  "description": "Documentation for Centre for Effective Altruism tech projects",
+  "keywords": "centre for effective altruism, tech, documentation",
+  "logo": "https://images.contentful.com/r1vy58jlgbvl/3KCeywJ4veS88y6SAuQCqo/83ea61fb0f151ac8758241153548dbc1/CEA_Logo_Blue.png",
   "social": {
     "twitter": false
   }

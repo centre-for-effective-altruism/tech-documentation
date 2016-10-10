@@ -1,9 +1,10 @@
-mixin includeChild (item,index, useNumbering, useExcerpts)
+mixin includeChild (item, index, useNumbering, useExcerpts)
 	- var file = item.file
 	- var file = item.file
 	case item.type
 		when 'page'
 			include ./series-page
+			+seriesPage(file)
 		when 'link'
 			include ./series-link
 

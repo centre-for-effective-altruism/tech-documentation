@@ -1,13 +1,13 @@
 mixin parentLink(position, file)
 	if file.parent && file.parent.sys.id
-		- var parentFile = fileIDMap[file.parent.sys.id];
+		- var parentFile = contentfulIDMap[file.parent.sys.id]
 			em #{position} of this series
 			br
 			a(href=parentFile.path)
 				i.fa.fa-backward
 				strong  Go back to the #{parentFile.title} #{parentFile.contentType}
 
-if Object.keys(series).length>0
+if Object.keys(series).length > 0
 	each s,seriesSlug in series
 		if seriesSets[seriesSlug] && seriesSets[seriesSlug] && seriesSets[seriesSlug].file.paginateItems
 			.series-pagination
